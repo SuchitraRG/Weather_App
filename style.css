@@ -1,3 +1,4 @@
+
 *{
 	padding: 0px;
 	margin: 0px;
@@ -12,12 +13,61 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-image: url("https://i.gifer.com/srG.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .container{
-	height:350px;
+	height: 350px;
 	width: 250px;
 	box-shadow: 0px 0px 20px grey;
-	border-radius:30px;
+	border-radius: 30px;
 	padding: 20px;
-
+	background: transparent;
+	backdrop-filter: blur(20px);
+}
+.heading{
+	color: #0000ff;
+	font-family: Arial Black;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+input[type="text"]{
+	height: 30px;
+	width: 180px;
+	padding-left: 10px;
+	outline: none;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.srch_btn{
+	border: none;
+	background-color: transparent;
+	padding-top: 20px;
+	cursor: pointer;
+}
+.component{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.btn{
+	margin-top: -20px;
+	margin-left: 10px;
+}
+#city{
+	color: orangered;
+	font-family: Arial Black;
+	font-size: 20px;
+}
+.measurement{
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+.headings{
+	color: #8080ff;
+	font-family: Arial Black;
+	font-size: 12px;
 }
